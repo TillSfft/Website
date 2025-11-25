@@ -9,28 +9,35 @@ programs_used: avid
 {{< own_gallery text="© Filmakademie Baden-Württemberg" rowHeight=150 >}}
     {{< media src="media/ROWING-Still_1.png" >}}
     {{< media src="media/ROWING-Still_2.png" >}}
+    {{< media src="media/ROWING-Still_1.1.9.png" >}}
     {{< media src="media/ROWING-Still_3.png" >}}
-    {{< media src="media/Timeline_Row.png" >}}
 {{< /own_gallery >}}
 
-### Shortfilm from my second year at Filmacademy
+### Shortfilm from my second year at Filmacademy | Edited on 
 
-{{< media src="media/ROWING_Plakat.jpg" >}}
+{{< row >}}
+{{< media src="media/Timeline_Row.png" >}}
+{{< text >}}
 
-Fesrtival Festival Festival
+Festival Festival Festival
 
-Cast: Elsa Langnäse, Anni Molke
+{{< /text >}}
+{{< /row >}}
 
-Director: Tobi Zürrer
 
-Producer: Helen Haase Oskar Kafsack
 
-Camera: Paul Köhler
+Director 
+Camera
+Screenplay
+Produktion
+Music
+Sound
 
-Screenplay: Jorid Lutz
+---
 
-Music: Kristian Hammer
-
-Sound Recordist: Jonathan Doenges
-
-Sound Design: Friedrichshafen Haustein, Valentin Vankann
+Tobi
+Paul
+Jorid
+Helen, Oskar
+Kristian
+Valentin

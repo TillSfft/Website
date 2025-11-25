@@ -32,15 +32,31 @@ body {
   margin-bottom: 25px; }
 
 .own-gallery {
-  display: flex;
-  flex-wrap: wrap; }
-  .own-gallery .image {
-    display: flex;
-    margin-bottom: 0px; }
-    .own-gallery .image img, .own-gallery .image video {
-      margin: 5px;
-      object-fit: cover;
-      /* Optional: Maintain aspect ratio while filling container */ }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* center on page */ }
+
+.own-gallery .image {
+  width: 100%;
+  overflow: hidden; }
+
+.own-gallery .image img,
+.own-gallery .image video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; }
+
+.own-gallery .image-bottom-text {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 100%; }
 
 .row-container {
   /* Making rows a bit bigger than the post container
@@ -72,7 +88,7 @@ body {
     .row-container .row-content {
       display: grid; }
       .row-container .row-content .text {
-        padding: 0px 30px; } }
+        padding: 10px 30px; } }
 html p {
   margin: 1.2rem 0;
   color: #cccccc;
@@ -84,20 +100,20 @@ html li {
   font-size: 1.2rem; }
 
 html h1 {
-  font-size: 8rem;
+  font-size: 7rem;
   margin: 0px;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
   text-align: center; }
 
 html h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 25px; }
 
 html h3 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   margin-bottom: 0;
   margin-top: 75px; }
 
