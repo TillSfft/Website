@@ -1,0 +1,13 @@
+@import "_vars.scss";
+
+// Import pages
+@import "pages/contact.scss";
+
+// Import page layouts
+@import "layouts/page.scss";
+
+// Import page components
+@import "components/own-gallery.scss";
+@import "components/row.scss";
+@import "components/text.scss";
+@import "components/media.scss";

@@ -1,0 +1,14 @@
+
+<div class="post-list-preview">
+
+    {{ .Inner }}
+    {{ range sort .Page.Pages "Date" "desc"}}
+        
+        <div class="post-list-item selectable">
+            <a class="selectable" href=" {{ .RelPermalink }} ">
+                <p class="title" >{{ .Title }}</p>
+                <p class="date" >{{ .Params.Date | time.Format ":date_medium" }}</p>
+            </a>
+        </div>
+    {{ end }}
+</div>

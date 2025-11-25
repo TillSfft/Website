@@ -1,0 +1,16 @@
+.own-gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    .image {
+
+        display: flex;
+        margin-bottom: 0px;
+        
+        img, video {
+            margin: 5px;
+            object-fit: cover; /* Optional: Maintain aspect ratio while filling container */
+        }
+    }
+}

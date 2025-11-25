@@ -1,0 +1,40 @@
+{{ $src := .src }}
+{{ $resource := .resource }}
+{{ $alt := .alt }}
+{{ $link := .link }}
+{{ $scale := .scale }}
+{{ $page := .page }}
+{{ $text := .text }}
+
+<div class="image scale_{{ $scale }}">
+    {{ if $link }}
+        <a href="{{ $link }}">
+    {{ end }}
+
+        {{ if not $resource }} 
+            {{ $resource = .page.Resources.Get $src }}
+        {{ end }}
+
+        {{ with $resource }}
+            {{ if or (eq .MediaType.SubType "webm") (eq .MediaType.SubType "mp4") (eq .MediaType.SubType "mov") }}
+                <video autoplay muted loop playsinline webkit-playsinline class="media">
+                    <source src="{{ .RelPermalink }}" type="video/webm">
+                </video>
+            {{ else if (eq $resource.MediaType.SubType "svg") }}  
+                <img src="{{ .RelPermalink }}" class="media" alt="{{ $alt }}">
+            {{ else }}
+                {{ $thumbname := printf "%s/%s%s%s" (path.Dir .) (path.BaseName .) "_compressed" (path.Ext "test.webp") }}
+                {{ with .Resize (printf "%dx%d webp 30" .Width .Height)}}
+                    <img src="{{ .RelPermalink }}" class="media" alt="{{ $alt }}">
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+        {{ if $text }}
+            <p class="image-bottom-text">{{ $text }}</p>
+        {{ end }}
+
+    {{ if $link }}
+        </a>
+    {{ end }}
+</div>

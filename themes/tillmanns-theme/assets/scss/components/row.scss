@@ -1,0 +1,52 @@
+.row-container {
+
+    /* Making rows a bit bigger than the post container
+    margin-left: -100px;
+    margin-right: -100px;
+
+    @media screen and (max-width: 1200px) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    */
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+    a {
+        //text-decoration: none;
+        color: $text;
+    }
+
+    .fill {
+        background-color: $bg-light;
+        border-radius: $standard-border-radius;
+    }
+
+    .row-content {
+        grid-template-columns: 50% 50%;
+        padding: 10px 10px 10px 10px;
+
+        .text {
+            padding: 10px 0px;
+
+            h1, h2, h3, h4, p {
+                margin-top: 0px;
+            }
+        }
+
+        .image {
+            margin-bottom: 0px;
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+        .row-content {
+            display: grid;
+
+            .text {
+                padding: 0px 30px;
+            }
+        }
+    }
+}

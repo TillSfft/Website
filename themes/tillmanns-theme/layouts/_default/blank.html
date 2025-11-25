@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="site-container {{ if .Params.style }} style-{{ .Params.style }} {{ end }}">
+  <div class="content-container">
+      <h1 class="project-title">{{ .Title }}</h1>
+
+      {{ .Content }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,195 @@
+.style-contact {
+  background-color: black;
+  color: azure;
+  font-family: "Inter", sans-serif; }
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+  scroll-behavior: smooth; }
+
+body {
+  color: #e6e6e6;
+  background-color: #141414;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  text-align: left;
+  margin: 0px; }
+
+::selection {
+  color: #141414;
+  background: #e6e6e6; }
+
+.site-container {
+  margin-top: 130px; }
+
+.content-container {
+  padding: 0 25px;
+  max-width: 1000px;
+  min-width: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px; }
+
+.own-gallery {
+  display: flex;
+  flex-wrap: wrap; }
+  .own-gallery .image {
+    display: flex;
+    margin-bottom: 0px; }
+    .own-gallery .image img, .own-gallery .image video {
+      margin: 5px;
+      object-fit: cover;
+      /* Optional: Maintain aspect ratio while filling container */ }
+
+.row-container {
+  /* Making rows a bit bigger than the post container
+    margin-left: -100px;
+    margin-right: -100px;
+
+    @media screen and (max-width: 1200px) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    */
+  margin-bottom: 50px;
+  margin-top: 20px; }
+  .row-container a {
+    color: #e6e6e6; }
+  .row-container .fill {
+    background-color: #1e1e1e;
+    border-radius: 10px; }
+  .row-container .row-content {
+    grid-template-columns: 50% 50%;
+    padding: 10px 10px 10px 10px; }
+    .row-container .row-content .text {
+      padding: 10px 0px; }
+      .row-container .row-content .text h1, .row-container .row-content .text h2, .row-container .row-content .text h3, .row-container .row-content .text h4, .row-container .row-content .text p {
+        margin-top: 0px; }
+    .row-container .row-content .image {
+      margin-bottom: 0px; }
+  @media screen and (min-width: 800px) {
+    .row-container .row-content {
+      display: grid; }
+      .row-container .row-content .text {
+        padding: 0px 30px; } }
+html p {
+  margin: 1.2rem 0;
+  color: #cccccc;
+  font-size: 1.2rem; }
+
+html li {
+  margin: 0.5rem 0;
+  color: #cccccc;
+  font-size: 1.2rem; }
+
+html h1 {
+  font-size: 8rem;
+  margin: 0px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+  text-align: center; }
+
+html h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 25px; }
+
+html h3 {
+  font-size: 2.3rem;
+  margin-bottom: 0;
+  margin-top: 75px; }
+
+html h4 {
+  font-size: 1.44rem; }
+
+html h5 {
+  font-size: 1.15rem; }
+
+html h6 {
+  font-size: 0.96rem; }
+
+html a {
+  color: #e6e6e6; }
+
+@media screen and (max-width: 1500px) {
+  html h1 {
+    font-size: 5rem; }
+  html h2 {
+    font-size: 2rem; }
+  html h3 {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 600px) {
+  html h1 {
+    font-size: 3.5rem; } }
+
+@media screen and (max-width: 1500px) {
+  html h1 {
+    font-size: 5rem; }
+  html h2 {
+    font-size: 2rem; }
+  html h3 {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 600px) {
+  html h1 {
+    font-size: 3.5rem; } }
+
+.text.left {
+  text-align: left; }
+
+.text.right {
+  text-align: right; }
+
+.text.center {
+  text-align: center; }
+
+pre {
+  background: #1e1e1e;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  margin: 2rem 0;
+  padding: 1.5rem; }
+
+.image video, .image img {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: contain;
+  margin: auto;
+  display: block; }
+
+.image-bottom-text {
+  text-align: center;
+  margin: 5px;
+  color: #686868;
+  font-size: 1rem;
+  width: 100%; }
+
+.logo {
+  border-radius: 0px; }
+
+.image.scale_25 img, .image.scale_25 video {
+  width: 25%; }
+
+.image.scale_50 img, .image.scale_50 video {
+  width: 50%; }
+
+.image.scale_75 img, .image.scale_75 video {
+  width: 75%; }
+
+.image.scale_25 img, .image.scale_25 video {
+  width: 25%; }
+
+.image.scale_50 img, .image.scale_50 video {
+  width: 50%; }
+
+.image.scale_75 img, .image.scale_75 video {
+  width: 75%; }
+
+video, img {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: contain;
+  margin: auto; }

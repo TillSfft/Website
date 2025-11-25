@@ -1,0 +1,16 @@
+<!-- Image Source Path -->
+{{ $src := .Get "src" }}
+
+<!-- (Optional) Image Description -->
+{{ $alt := .Get "alt" }}
+{{ $text := .Get "text" }}
+
+<!-- Media scaling -->
+{{ $scale := .Get "scale" }}
+
+<!-- Media Link -->
+{{ $link := .Get "link" }}
+
+<!-- Pack values into disctionary and send them to image partial -->
+{{ $mediaParams := dict "src" $src "alt" $alt "scale" $scale "link" $link "page" .Page "text" $text }}
+{{ partial "media.html" $mediaParams }}
