@@ -10,8 +10,8 @@
     }
     */
 
-    margin-bottom: 50px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 
     a {
         //text-decoration: none;
@@ -25,10 +25,10 @@
 
     .row-content {
         grid-template-columns: 50% 50%;
-        padding: 10px 10px 10px 10px;
+        padding: 10px 0px 10px 0px;
 
         .text {
-            padding: 10px 0px;
+            padding: 20px 0px;
 
             h1, h2, h3, h4, p {
                 margin-top: 0px;
@@ -36,8 +36,12 @@
         }
 
         .image {
-            margin-bottom: 0px;
+            margin-bottom: 30px;
         }
+    }
+
+    .specific-ratio {
+        grid-template-columns: 60% 40%;
     }
 
     @media screen and (min-width: 800px) {

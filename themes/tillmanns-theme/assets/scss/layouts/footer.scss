@@ -1,0 +1,27 @@
+@import "_vars.scss";
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .footer-container {
+        max-width: 1000px;
+        text-align: center;
+        padding: 30px;
+        color: $text-dark;
+        /* border-top: 1px solid var(--border); */
+        background-color: $bg-light;
+        border-radius: $standard-border-radius;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    footer {
+        margin-bottom: 0px;
+
+        .footer-container {
+            border-radius: 0px;
+        }
+    }
+  }

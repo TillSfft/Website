@@ -5,10 +5,14 @@
 
 // Import page layouts
 @import "layouts/page.scss";
+@import "layouts/footer.scss";
+@import "layouts/header.scss";
+@import "layouts/project-grid";
 
 // Import page components
 @import "components/own-gallery.scss";
 @import "components/row.scss";
 @import "components/text.scss";
 @import "components/media.scss";
-@import "components/colums.scss";
+@import "components/twocol.scss";
+@import "components/logo.scss";

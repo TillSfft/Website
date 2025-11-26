@@ -1,0 +1,9 @@
+{{ $name := .Get "name" }}
+{{ $ext  := .Get "ext" | default "svg" }}
+
+<img 
+  src="/logos/{{ $name }}.{{ $ext }}" 
+  alt="{{ $name }} logo"
+  class="inline-logo"
+  title="{{ $name }}"
+/>

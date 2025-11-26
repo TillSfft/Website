@@ -1,0 +1,19 @@
+.twocol-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.twocol-col {
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .twocol-container {
+    flex-direction: column;
+  }
+}
+
+.twocol-container .twocol-col:first-child {
+  text-align: right;
+}

@@ -1,0 +1,15 @@
+{{/* Convert .Inner (HTML) to plain string so split works */}}
+{{ $raw := .Inner | string }}
+{{ $parts := split $raw "---" }}
+  
+<div class="twocol-container">
+    <div class="twocol-col">
+        {{ index $parts 0 | markdownify }}
+    </div>
+
+    <div class="twocol-col">
+        {{ if gt (len $parts) 1 }}
+            {{ index $parts 1 | markdownify }}
+        {{ end }}
+    </div>
+</div>

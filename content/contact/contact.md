@@ -1,7 +1,7 @@
 ---
 title: Get in Contact.
 layout: blank
-style: contact
+weight: 30
 ---
 
 tillmann.seiffert@icloud.com

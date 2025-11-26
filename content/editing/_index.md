@@ -1,7 +1,6 @@
-+++
-date = '2025-11-20T16:51:42+01:00'
-draft = false
-title = 'Editing'
-+++
+---
+title: "Editing"
+layout: blank
+---
  
-{{< post_list_preview />}}      
+{{< post_list_preview />}}
