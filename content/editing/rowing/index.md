@@ -4,7 +4,10 @@ date: '2025-11-20'
 layout: project
 programs_used: avid
 ---
-**Short film  |  Drama  |  25 min  |  2025**
+
+#### Short film from my second year at Filmacademy
+
+**Drama  |  25 min  |  2025**
 
 {{< own_gallery text="© Filmakademie Baden-Württemberg" rowHeight=150 >}}
     {{< media src="media/ROWING-Still_1.png" >}}
@@ -13,7 +16,10 @@ programs_used: avid
     {{< media src="media/ROWING-Still_3.png" >}}
 {{< /own_gallery >}}
 
-#### Short film from my second year at Filmacademy
+{{< logo name="Laurel_Wreath" >}}
+{{< logo name="Laurel_Wreath" >}}
+
+&nbsp;
 
 {{< row >}}
 {{< text >}}
@@ -22,22 +28,19 @@ programs_used: avid
 {{< logo name="AVID Media Composer" >}}
 {{< /row >}}
 
-{{< row class="specific-ratio" >}}
-{{< media src="media/Timeline_Row.png" >}}
-{{< text >}}
+{{< media src="media/Timeline_Row.png" scale=75 >}}
+
+&nbsp;
+
 Nele‘s passion is rowing. With her best friend Dina, she trains every day without exception.
-Dina however, is currently battling her own body.   
-Her skin is becoming scaly and spikes are
+Dina however, is currently battling her own body. Her skin is becoming scaly and spikes are
 growing out of her back. Although Nele tries to keep her in training, Dina decides to listen
 to her body and give in to the transformation. Not only is their shared passion at risk of
 falling apart, but so is their friendship.
-{{< /text >}}
-{{< /row >}}
 
-{{< logo name="Laurel_Wreath" >}}
-{{< logo name="Laurel_Wreath" >}}
+&nbsp;
 
-{{< row >}}
+{{< row class="specific-ratio">}}
 
 {{< text >}}
 Festival 

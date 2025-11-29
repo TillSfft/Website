@@ -1,0 +1,26 @@
+.custom-table-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.custom-table-wrapper th,
+.custom-table-wrapper td {
+    border: 0px solid #ccc;
+    padding: 10px;
+}
+
+.custom-table-wrapper th {
+    background: #404040;
+}
+
+.custom-table-wrapper table tbody tr:nth-child(odd) {
+    background: #282828;
+}
+
+.custom-table-wrapper table tbody tr:nth-child(even) {
+    background: #303030;
+}

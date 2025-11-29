@@ -41,7 +41,11 @@
     }
 
     .specific-ratio {
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 40% 60%;
+    }
+
+    .specific-ratio2 {
+        grid-template-columns: 26% 74%;
     }
 
     @media screen and (min-width: 800px) {
