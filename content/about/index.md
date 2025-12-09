@@ -4,14 +4,29 @@ date: '2025-11-20'
 layout: about
 ---
 
-{{< row >}}
-{{< media src="media/Tillmann.jpg" scale=75 >}}
-{{< text align="left" >}}
-### Editing student
-###  Filmakademie Baden-Württemberg 
+{{< media src="media/Tillmann.jpg" scale=50 >}}
 
-Occasionally you will find me on set as an assistant Camera
+###### tillmann.seiffert@icloud.com
+
+{{< row >}}
+{{< text >}}
+**Editing student**  
+**Filmakademie Baden-Württemberg**
+
+
 {{< /text >}}
+
+{{< media src="media/Editing.png" scale=50 >}}
+
 {{< /row >}}
+
+
+
+
+
+Editing since 2017.
+
+
+
 
 ## Resume

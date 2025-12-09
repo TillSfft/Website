@@ -3,6 +3,7 @@ title: "Rowing"
 date: '2025-11-20'
 layout: project
 programs_used: avid
+bgcolor: "bg-ROW"
 ---
 
 #### Short film from my second year at Filmacademy
@@ -16,8 +17,10 @@ programs_used: avid
     {{< media src="media/ROWING-Still_3.png" >}}
 {{< /own_gallery >}}
 
+<!--
 {{< logo name="Laurel_Wreath" >}}
 {{< logo name="Laurel_Wreath" >}}
+-->
 
 &nbsp;
 
@@ -43,12 +46,13 @@ falling apart, but so is their friendship.
 {{< row class="specific-ratio">}}
 
 {{< text >}}
+<!--
 Festival 
 
 Festival 
 
 Festival
-
+-->
 {{< /text >}}
 
 {{< twocol >}}

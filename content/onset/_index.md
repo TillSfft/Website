@@ -1,13 +1,13 @@
 ---
 title: "on set"
-layout: blank
+layout: onset
 ---
 
-{{< media src="media/IMG_0682.JPG" scale=75 >}}
+{{< media src="media/OnsetText.png" scale=75 >}}
 
 ## Work as DoP
 
-
+{{< post_list_preview />}}
 
 ### other work on set 
 (selection)
@@ -29,6 +29,17 @@ layout: blank
 | 2024 | Headspace - Breathe | Spec Spot | Lighting Technician |
 |      | Der Statist | Short film | 1st AC |
 |      | Shut Up And Suffer | Short film | 1st AC |
-
+| 2025 | Letterboxd | Spec Spot | 1st AC |
 
 {{< /table >}}
+
+&nbsp;
+
+{{< own_gallery rowHeight=150 >}}
+    {{< media src="media/_DSC5473.jpg" >}}
+    {{< media src="media/AC01.jpg" >}}
+    {{< media src="media/IMG_0678.jpg" >}}
+    {{< media src="media/IMG_0221.JPG" >}}
+    {{< media src="media/IMG_0677.JPG" >}}
+    {{< media src="media/Letterboxd_Day2_00014.jpeg" >}}
+{{< /own_gallery >}}

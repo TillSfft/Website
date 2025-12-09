@@ -1,9 +1,11 @@
 {{ $name := .Get "name" }}
 {{ $ext  := .Get "ext" | default "svg" }}
+{{ $height := .Get "height" | default "70" }}
 
 <img 
   src="/logos/{{ $name }}.{{ $ext }}" 
   alt="{{ $name }} logo"
   class="inline-logo"
   title="{{ $name }}"
+  style="height: {{ $height }}px;"
 />

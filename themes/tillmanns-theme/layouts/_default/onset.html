@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="site-container {{ if .Params.style }} style-{{ .Params.style }} {{ else }} style-post {{ end }}">
+   
+
+    <div class="content-container">
+      <div class="hero-container">
+      <div class="post-content-container">
+        {{ .Content }}
+      </div>
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+  </div>
+{{ end }}

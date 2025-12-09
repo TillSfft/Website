@@ -1,9 +1,12 @@
 ---
 title: "Tuifl"
-date: '2025-11-20'
+date: '2025-10-20'
 layout: project
 programs_used: Premiere
 ---
+
+#### An animation short film from my second year at Filmacademy
+
 **Short animation  |  Horror  |  6 min  |  2025**
 
 {{< own_gallery text="© Filmakademie Baden-Württemberg" rowHeight=150 >}}
@@ -13,7 +16,12 @@ programs_used: Premiere
     {{< media src="media/Tuifl_Still_03.png" >}}
 {{< /own_gallery >}}
 
-#### An animation short film I edited in my 3rd and 4th semester
+<!--
+{{< logo name="Laurel_Wreath" >}}
+{{< logo name="Laurel_Wreath" >}}
+-->
+
+&nbsp;
 
 {{< row >}}
 {{< text >}}
@@ -22,19 +30,16 @@ programs_used: Premiere
 {{< logo name="Adobe Premiere Pro" >}}
 {{< /row >}}
 
-{{< row class="specific-ratio" >}}
-{{< media src="media/Timeline_Tuifl.png" >}}
-{{< text >}}
+
+{{< media src="media/Timeline_Tuifl.png" scale=75 >}}
+
 &nbsp;
 
 Jakob and his mother live alone in a hut, in the middle of the South Tyrolean mountains. One night Jakob leaves the protection of the hut to find an escaped lamb. It is up to his mother to find him before the Skinwalkers do!
-{{< /text >}}
-{{< /row >}}
-<!--
-{{< logo name="Laurel_Wreath" >}}
-{{< logo name="Laurel_Wreath" >}}
--->
-{{< row >}}
+
+&nbsp;
+
+{{< row class="specific-ratio">}}
 
 {{< text >}}
 <!--

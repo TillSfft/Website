@@ -1,7 +1,52 @@
+.bg-600Warm {
+  background-color: #3a1c1c; }
+
+.bg-ROW {
+  background-color: #0d3238; }
+
+.bg-BB {
+  background-color: #c36123; }
+
+.bg-Aurora {
+  background-color: #10443f; }
+
+.bg-HS {
+  background-color: #424242; }
+
+.bg-600Warm {
+  background-color: #3a1c1c; }
+
+.bg-ROW {
+  background-color: #0d3238; }
+
+.bg-BB {
+  background-color: #c36123; }
+
+.bg-Aurora {
+  background-color: #10443f; }
+
+.bg-HS {
+  background-color: #424242; }
+
 .style-contact .image {
   margin: 20px; }
   .style-contact .image img {
     width: 75px; }
+
+.bg-600Warm {
+  background-color: #3a1c1c; }
+
+.bg-ROW {
+  background-color: #0d3238; }
+
+.bg-BB {
+  background-color: #c36123; }
+
+.bg-Aurora {
+  background-color: #10443f; }
+
+.bg-HS {
+  background-color: #424242; }
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
@@ -31,6 +76,21 @@ body {
   margin-right: auto;
   margin-bottom: 25px; }
 
+.bg-600Warm {
+  background-color: #3a1c1c; }
+
+.bg-ROW {
+  background-color: #0d3238; }
+
+.bg-BB {
+  background-color: #c36123; }
+
+.bg-Aurora {
+  background-color: #10443f; }
+
+.bg-HS {
+  background-color: #424242; }
+
 footer {
   display: flex;
   justify-content: center;
@@ -49,6 +109,21 @@ footer {
     margin-bottom: 0px; }
     footer .footer-container {
       border-radius: 0px; } }
+
+.bg-600Warm {
+  background-color: #3a1c1c; }
+
+.bg-ROW {
+  background-color: #0d3238; }
+
+.bg-BB {
+  background-color: #c36123; }
+
+.bg-Aurora {
+  background-color: #10443f; }
+
+.bg-HS {
+  background-color: #424242; }
 
 header {
   position: fixed;
@@ -217,7 +292,8 @@ html h5 {
   margin-bottom: 0px; }
 
 html h6 {
-  font-size: 0.96rem; }
+  font-size: 1.25rem;
+  text-align: center; }
 
 html a {
   color: #e6e6e6; }
@@ -264,6 +340,7 @@ pre {
 
 .image video, .image img {
   border-radius: 10px;
+  overflow: hidden;
   width: 100%;
   object-fit: contain;
   margin: auto;
@@ -319,7 +396,6 @@ video, img {
   text-align: right; }
 
 .inline-logo {
-  height: 70px;
   width: auto;
   display: inline-block;
   vertical-align: middle;
