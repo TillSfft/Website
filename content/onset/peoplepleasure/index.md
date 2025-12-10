@@ -70,7 +70,7 @@ A TV crew, who originally wanted to shoot a documentary about the lack of living
 
 **Sound Design**
 
-**Color Grading**
+**Colorist**
 
 **Hair & Make-Up**
 

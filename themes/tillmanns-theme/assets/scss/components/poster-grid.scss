@@ -1,0 +1,19 @@
+.post-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.post-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px; // adjust as needed
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  .post-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

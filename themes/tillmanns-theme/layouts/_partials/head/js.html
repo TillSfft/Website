@@ -1,3 +1,7 @@
+{{/* -------------------------------------- */}}
+{{/* Load main.js                           */}}
+{{/* -------------------------------------- */}}
+
 {{- with resources.Get "js/main.js" }}
   {{- $opts := dict
     "minify" (not hugo.IsDevelopment)
@@ -10,6 +14,26 @@
     {{- else }}
       {{- with . | fingerprint }}
         <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{/* -------------------------------------- */}}
+{{/* Load gallery.js (your new file)        */}}
+{{/* -------------------------------------- */}}
+
+{{- with resources.Get "js/gallery.js" }}
+  {{- $opts := dict
+    "minify" (not hugo.IsDevelopment)
+    "targetPath" "js/gallery.js"
+  }}
+  {{- with . | js.Build $opts }}
+    {{- if hugo.IsDevelopment }}
+      <script src="{{ .RelPermalink }}" defer></script>
+    {{- else }}
+      {{- with . | fingerprint }}
+        <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
       {{- end }}
     {{- end }}
   {{- end }}

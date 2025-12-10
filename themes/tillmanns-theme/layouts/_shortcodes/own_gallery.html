@@ -1,28 +1,27 @@
 {{ $folder := .Get "folder" }}
 {{ $mediaList := (.Page.Resources.ByType "image") }}
-{{ $rowHeight := .Get "rowHeight" | default 30}}
-{{ $text := .Get "text"}}
-{{ $pageDirPrefix := printf "/%s" .Page.File.Dir }}
+{{ $rowHeight := .Get "rowHeight" | default 30 }}
+{{ $text := .Get "text" }}
 {{ $page := .Page }}
 
-<div id="own-gallery" class="own-gallery" data-rowheight="{{ $rowHeight }}">
+<div class="own-gallery" data-rowheight="{{ $rowHeight }}">
+
     {{ if $folder }}
         {{ $mediaList = (.Page.Resources.Match $folder) }}
 
         {{ range $media := $mediaList }}
             {{ with $media }}
-
                 {{ $alt := .Name }}
-
                 {{ $mediaParams := dict "resource" . "alt" $alt "page" $page }}
                 {{ partial "media.html" $mediaParams }}
             {{ end }}
         {{ end }}
     {{ end }}
-    
+
     {{ .Inner }}
 
     {{ if $text }}
         <p class="image-bottom-text">{{ $text }}</p>
     {{ end }}
+
 </div>

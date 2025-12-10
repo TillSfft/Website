@@ -76,6 +76,8 @@ Festival
   
 &nbsp;
 
+**Colorist**
+
 **Hair & Make-Up**
 
 **Production Design**
@@ -121,6 +123,8 @@ Valentin Vankann
 Friedrich Haustein    
 
 Marc Landendinger
+
+Lennart Bachnick
 
 Lary Rauh
 

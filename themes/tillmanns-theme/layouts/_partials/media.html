@@ -11,28 +11,28 @@
         <a href="{{ $link }}">
     {{ end }}
 
-        {{ if not $resource }} 
+    {{ if not $resource }}
             {{ $resource = .page.Resources.Get $src }}
-        {{ end }}
+    {{ end }}
 
-        {{ with $resource }}
+    {{ with $resource }}
             {{ if or (eq .MediaType.SubType "webm") (eq .MediaType.SubType "mp4") (eq .MediaType.SubType "mov") }}
-                <video autoplay muted loop playsinline webkit-playsinline class="media">
+            <video autoplay muted loop playsinline webkit-playsinline class="media">
                     <source src="{{ .RelPermalink }}" type="video/webm">
-                </video>
+            </video>
             {{ else if (eq $resource.MediaType.SubType "svg") }}  
-                <img src="{{ .RelPermalink }}" class="media" alt="{{ $alt }}">
+            <img src="{{ .RelPermalink }}" class="media" alt="{{ $alt }}">
             {{ else }}
                 {{ $thumbname := printf "%s/%s%s%s" (path.Dir .) (path.BaseName .) "_compressed" (path.Ext "test.webp") }}
                 {{ with .Resize (printf "%dx%d webp 30" .Width .Height)}}
                     <img src="{{ .RelPermalink }}" class="media" alt="{{ $alt }}">
                 {{ end }}
             {{ end }}
-        {{ end }}
+    {{ end }}
 
-        {{ if $text }}
-            <p class="image-bottom-text">{{ $text }}</p>
-        {{ end }}
+    {{ if $text }}
+        <p class="image-bottom-text">{{ $text }}</p>
+    {{ end }}
 
     {{ if $link }}
         </a>

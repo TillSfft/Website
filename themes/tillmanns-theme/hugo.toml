@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://tillmannseiffert.de'
 languageCode = 'en-US'
 title = 'Tillmann Seiffert'
 
@@ -7,22 +7,17 @@ title = 'Tillmann Seiffert'
   [[menus.main]]
     name = 'Editing'
     pageRef = '/editing'
-    weight = 30
-
-  [[menus.main]]
-    name = 'about'
-    pageRef = '/about'
-    weight = 20
-
-  [[menus.main]]
-    name = 'OnSet'
-    pageRef = '/onset'
-    weight = 30
-
-  [[menus.main]]
-    name = 'contact'
-    pageRef = '/contact'
     weight = 10
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 30
+
+  [[menus.main]]
+    name = 'On Set'
+    pageRef = '/onset'
+    weight = 20
 
 [module]
   [module.hugoVersion]

@@ -1,14 +1,13 @@
-
-<div class="post-list-preview">
-
-    {{ .Inner }}
-    {{ range sort .Page.Pages "Date" "desc"}}
-        
-        <div class="post-list-item selectable">
-            <a class="selectable" href=" {{ .RelPermalink }} ">
-                <p class="title" >{{ .Title }}</p>
-                <p class="date" >{{ .Params.Date | time.Format ":date_medium" }}</p>
-            </a>
-        </div>
+<div class="post-grid">
+  {{/* Get only pages in the same section where the shortcode is used */}}
+  {{ $section := .Page.Section }}
+  
+  {{ range (where .Site.RegularPages "Section" .Page.Section) }}
+    {{ $poster := .Resources.GetMatch "media/poster*" }}
+    {{ if $poster }}
+      <a class="post-card" href="{{ .RelPermalink }}">
+        <img src="{{ $poster.RelPermalink }}" alt="{{ .Title }} poster" loading="lazy">
+      </a>
     {{ end }}
+  {{ end }}
 </div>

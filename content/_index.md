@@ -1,8 +1,6 @@
-+++
-title = 'Home'
-date = 2023-01-01T08:00:00-07:00
-draft = false
-+++
+---
+title: "Editing"
+layout: blank
+---
 
-blablalblalb
-
+{{< post_list_preview >}}

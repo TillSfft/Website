@@ -1,6 +1,6 @@
 ---
 title: "Get Some Headspace"
-date: '2025-11-20'
+date: '2025-11-10'
 layout: project
 programs_used: DaVinci Resolve
 bgcolor: "bg-HS"
