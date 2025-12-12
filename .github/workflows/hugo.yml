@@ -2,8 +2,7 @@ name: Push to GitHub Pages on push to main
 on:
   push:
     branches:
-      
-main
+      - main
 
 jobs:
   build:
