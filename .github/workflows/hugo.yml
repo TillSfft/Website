@@ -61,7 +61,7 @@ jobs:
         with:
           path: ./public
       - name: CNAME
-        run: echo -e "tillmannseiffert.de > ./public/CNAME
+        run: echo -e "tillmannseiffert.de" > ./public/CNAME
 
   # Deployment job
   deploy:
