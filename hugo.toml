@@ -1,4 +1,27 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Editing'
+
+baseURL = 'https://tillmannseiffert.de/'
+languageCode = 'en-US'
+title = 'Tillmann Seiffert'
 theme = ['tillmanns-theme']
+
+[menus]
+
+  [[menus.main]]
+    name = 'Editing'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 30
+
+  [[menus.main]]
+    name = 'On Set'
+    pageRef = '/onset'
+    weight = 20
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
