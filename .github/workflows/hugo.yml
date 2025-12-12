@@ -9,17 +9,15 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-      
-name: Checkout code
-      uses: actions/checkout@v1
+      - name: Checkout code
+        uses: actions/checkout@v1
 
-      
-name: Deploy the site
-      uses: benmatselby/hugo-deploy-gh-pages@main
-      env:
-        HUGO_VERSION: 0.152.2
-        TARGET_REPO: TillSfft/Website
-        TARGET_BRANCH: pages
-        TOKEN: ${{ secrets.TOKEN }}
-        HUGO_ARGS: '-t tillmann'
-        CNAME: tillmannseiffert.de
+      - name: Deploy the site
+        uses: benmatselby/hugo-deploy-gh-pages@main
+        env:
+          HUGO_VERSION: 0.152.2
+          TARGET_REPO: TillSfft/Website
+          TARGET_BRANCH: pages
+          TOKEN: ${{ secrets.TOKEN }}
+          HUGO_ARGS: '-t tillmann'
+          CNAME: tillmannseiffert.de
