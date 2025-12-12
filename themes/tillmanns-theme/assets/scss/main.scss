@@ -1,14 +1,12 @@
 @import "_vars.scss";
 
-// Import pages
-@import "pages/contact.scss";
-
 // Import page layouts
 @import "layouts/page.scss";
 @import "layouts/footer.scss";
 @import "layouts/header.scss";
 
 // Import page components
+@import "components/link-buttons.scss";
 @import "components/own-gallery.scss";
 @import "components/row.scss";
 @import "components/text.scss";

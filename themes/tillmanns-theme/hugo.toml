@@ -6,7 +6,7 @@ title = 'Tillmann Seiffert'
 
   [[menus.main]]
     name = 'Editing'
-    pageRef = '/editing'
+    pageRef = '/'
     weight = 10
 
   [[menus.main]]

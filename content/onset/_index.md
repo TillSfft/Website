@@ -2,8 +2,9 @@
 title: "on set"
 layout: onset
 ---
-
+{{< own_gallery rowHeight=150 >}}
 {{< media src="media/OnsetText.png" scale=75 >}}
+{{< /own_gallery >}}
 
 ## Work as DoP
 
@@ -39,7 +40,8 @@ layout: onset
 
 {{< own_gallery rowHeight=150 >}}
     {{< media src="media/_DSC5473.jpg" >}}
-    {{< media src="media/AC01.jpg" >}}
-    {{< media src="media/IMG_0221.JPG" >}}
     {{< media src="media/Letterboxd_Day2_00014.jpeg" >}}
+    {{< media src="media/AC01.jpg" >}}
+    {{< media src="media/DSC01226.jpg" >}}
+
 {{< /own_gallery >}}
