@@ -3,6 +3,8 @@ title: "People Pleasure"
 date: '2024-07-21'
 layout: project
 bgcolor: 'bg-600Warm'
+build:
+    publishResources: false
 ---
 
 #### Short film from my second semester at Filmacademy
@@ -18,28 +20,28 @@ bgcolor: 'bg-600Warm'
 
 {{< logo name="IHF_Laurel_2024" ext="png" height="120" >}}
 
-&nbsp;
+{{< spacer >}}
 
 ## Shot on Sony FX3
 
-&nbsp;
+{{< spacer >}}
 
 {{< media src="media/DSC03091.JPG" scale=50 >}}
 
-&nbsp;
+{{< spacer >}}
 
 A TV crew, who originally wanted to shoot a documentary about the lack of living space, accompanies the couple Carina and Lasse, who want to sublet their BDSM room as a shared flat. However, the couple are looking for an additional sexual partner for their relationship in their new flatmate Theo. But the plan gets out of hand and the two have to rethink their relationship.
 
 
-&nbsp;
+{{< spacer >}}
 
-{{< row class="specific-ratio">}}
+{{< row class="specific-ratio" stack="true" >}}
 
 {{< text >}}
 
 ### Festivals
 
-&nbsp;
+{{< spacer >}}
 
 - Internationale Hofer Filmtage
 

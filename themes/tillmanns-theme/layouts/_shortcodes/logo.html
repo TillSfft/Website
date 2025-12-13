@@ -1,11 +1,9 @@
 {{ $name := .Get "name" }}
 {{ $ext  := .Get "ext" | default "svg" }}
 {{ $height := .Get "height" | default "70" }}
-
-<img 
+{{ $height_style := print "height: " $height "px;" | safeCSS }}  <img 
   src="/logos/{{ $name }}.{{ $ext }}" 
   alt="{{ $name }} logo"
   class="inline-logo"
   title="{{ $name }}"
-  style="height: {{ $height }}px;"
-/>
+  style=" {{ $height_style }} "  />

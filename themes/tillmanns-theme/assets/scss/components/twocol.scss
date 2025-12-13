@@ -6,11 +6,15 @@
 
 .twocol-col {
   flex: 1;
+  font-size: 1rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+  .twocol-col p {
+    font-size: 0.8rem;
+  }
   .twocol-container {
-    flex-direction: column;
+    gap: 1rem;
   }
 }
 

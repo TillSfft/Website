@@ -3,6 +3,8 @@ title: "Tuifl"
 date: '2025-10-20'
 layout: project
 programs_used: Premiere
+build:
+    publishResources: false
 ---
 
 #### An animation short film from my second year at Filmacademy
@@ -21,7 +23,7 @@ programs_used: Premiere
 {{< logo name="Laurel_Wreath" >}}
 -->
 
-&nbsp;
+{{< spacer >}}
 
 {{< row >}}
 {{< text >}}
@@ -33,13 +35,13 @@ programs_used: Premiere
 
 {{< media src="media/Timeline_Tuifl.png" scale=75 >}}
 
-&nbsp;
+{{< spacer >}}
 
 Jakob and his mother live alone in a hut, in the middle of the South Tyrolean mountains. One night Jakob leaves the protection of the hut to find an escaped lamb. It is up to his mother to find him before the Skinwalkers do!
 
-&nbsp;
+{{< spacer >}}
 
-{{< row class="specific-ratio">}}
+{{< row class="specific-ratio" stack="true" >}}
 
 {{< text >}}
 <!--
@@ -98,7 +100,7 @@ Iris Maier
 
 Leon Maximilian Brückner
 
-Luks Huber 
+Lukas Huber 
 
 Jonathan Dönges 
 

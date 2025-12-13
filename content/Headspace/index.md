@@ -4,6 +4,8 @@ date: '2025-11-10'
 layout: project
 programs_used: DaVinci Resolve
 bgcolor: "bg-HS"
+build:
+    publishResources: false
 ---
 
 #### Spec Spot from my second year at Filmacademy
@@ -11,10 +13,10 @@ bgcolor: "bg-HS"
 **Advertisement  |  45 sec  |  2025**
 
 {{< own_gallery text="© Filmakademie Baden-Württemberg" rowHeight=150 >}}
-    {{< media src="media/Headspace_still_01.png" >}}
-    {{< media src="media/Headspace_still_02.png" >}}
-    {{< media src="media/Headspace_still_03.png" >}}
-    {{< media src="media/Headspace_still_04.png" >}}
+    {{< media src="media/Headspace_still_01.jpg" >}}
+    {{< media src="media/Headspace_still_02.jpg" >}}
+    {{< media src="media/Headspace_still_03.jpg" >}}
+    {{< media src="media/Headspace_still_04.jpg" >}}
 {{< /own_gallery >}}
 
 <!--
@@ -22,7 +24,7 @@ bgcolor: "bg-HS"
 {{< logo name="Laurel_Wreath" >}}
 -->
 
-&nbsp;
+{{< spacer >}}
 
 {{< row >}}
 {{< text >}}
@@ -33,13 +35,13 @@ bgcolor: "bg-HS"
 
 {{< media src="media/Timeline_HS.png" scale=75 >}}
 
-&nbsp;
+{{< spacer >}}
 
 Victoria’s everyday stress is visualized through a striking metaphor: a ceiling that slowly, yet relentlessly, descends. As she tries to meet everyone’s expectations, the space around her grows tighter, the air heavier. Only when she’s on the verge of collapse does she realize she must pause and make time for herself – before the pressure completely crushes her.
 
-&nbsp;
+{{< spacer >}}
 
-{{< row class="specific-ratio">}}
+{{< row class="specific-ratio" stack="true" >}}
 
 {{< text >}}
 <!--

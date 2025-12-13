@@ -1,0 +1,7 @@
+{{ $size_class := "spacer" }}  {{ if eq (.Get "size") "lg" }}
+  {{ $size_class = "spacer-lg" }}
+{{ else if eq (.Get "size") "sm" }}
+  {{ $size_class = "spacer-sm" }}
+{{ end }}
+
+<div class="{{ $size_class }}"></div>

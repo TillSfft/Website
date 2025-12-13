@@ -4,6 +4,8 @@ date: '2024-07-20'
 layout: project
 programs_used: premiere pro
 bgcolor: "bg-BB"
+build:
+    publishResources: false
 ---
 
 #### Short film from my second semester at Filmacademy
@@ -22,7 +24,7 @@ bgcolor: "bg-BB"
 {{< logo name="Laurel_Wreath" >}}
 -->
 
-&nbsp;
+{{< spacer >}}
 
 {{< row >}}
 {{< text >}}
@@ -33,19 +35,19 @@ bgcolor: "bg-BB"
 
 {{< media src="media/Timeline_BB.jpg" scale=75 >}}
 
-&nbsp;
+{{< spacer >}}
 
 Nate is trying to relax, his date with Kayla is coming up. But when his original plan is thwarted, panic sets in and a jar of chewing gum falls to the floor - absolute chaos. But instead of giving up, he has an idea.
 
-&nbsp;
+{{< spacer >}}
 
-{{< row class="specific-ratio">}}
+{{< row class="specific-ratio" stack="true" >}}
 
 {{< text >}}
 
 ### Festivals
 
-&nbsp;
+{{< spacer >}}
 
 - Exground Wiesbaden
 

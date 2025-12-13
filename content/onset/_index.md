@@ -1,16 +1,18 @@
 ---
 title: "on set"
 layout: onset
+build:
+    publishResources: false
 ---
-{{< own_gallery rowHeight=150 >}}
-{{< media src="media/OnsetText.png" scale=75 >}}
-{{< /own_gallery >}}
+
+{{< media src="media/OnsetText.jpg" scale=75 >}}
+
 
 ## Work as DoP
 
 {{< post_list_preview >}}
 
-&nbsp;
+{{< spacer size="sm" >}}
 
 ### other work on set 
 (selection)
@@ -23,7 +25,7 @@ layout: onset
 | 2021 | Ragazzino | Short film | 2nd AC |
 |      | Esperto 2 Tchibo | Commercial | 2nd AC |
 |      | "Reuetuz" LIDL | Commercial | Lighting Technician |
-|      | Tatort "Krimidinner | TV-Movie | Lighting Assistant |
+|      | Tatort "Krimidinner" | TV-Movie | Lighting Assistant |
 | 2022 | Closed Eyes | Short film | 1st AC |
 |      | Easily Distracted | Short film | 1st AC |
 |      | Bloody Secrets | Short film | 2nd AC |
@@ -36,7 +38,7 @@ layout: onset
 
 {{< /table >}}
 
-&nbsp;
+{{< spacer >}}
 
 {{< own_gallery rowHeight=150 >}}
     {{< media src="media/_DSC5473.jpg" >}}

@@ -36,23 +36,6 @@
   }
 }
 
-.image.scale_75 {
-  img, video {
-    width: 75%;
-  }
-}
-
-.image.scale_25 {
-  img, video {
-    width: 25%;
-  }
-}
-
-.image.scale_50 {
-  img, video {
-    width: 50%;
-  }
-}
 
 .image.scale_75 {
   img, video {
@@ -60,6 +43,17 @@
   }
 }
 
+// Mobile override
+@media screen and (max-width: 600px) {
+  .image.scale_25 img,
+  .image.scale_50 img,
+  .image.scale_75 img,
+  .image.scale_25 video,
+  .image.scale_50 video,
+  .image.scale_75 video {
+    width: 100%;
+  }
+}
 
 //Default image settings
 video, img {

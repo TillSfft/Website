@@ -4,6 +4,8 @@ date: '2025-03-20'
 layout: project
 programs_used: avid
 bgcolor: "bg-Aurora"
+build:
+    publishResources: false
 ---
 
 #### Short film from the set extension workshop
@@ -17,7 +19,7 @@ bgcolor: "bg-Aurora"
     {{< media src="media/Aurora_still_04.png" >}}
 {{< /own_gallery >}}
 
-&nbsp;
+{{< spacer >}}
 
 {{< row >}}
 {{< text >}}
@@ -28,7 +30,7 @@ bgcolor: "bg-Aurora"
 
 {{< media src="media/Timeline_Aurora.png" scale=75 >}}
 
-&nbsp;
+{{< spacer >}}
 <!--
 Nele‘s passion is rowing. With her best friend Dina, she trains every day without exception.
 Dina however, is currently battling her own body. Her skin is becoming scaly and spikes are
@@ -36,9 +38,9 @@ growing out of her back. Although Nele tries to keep her in training, Dina decid
 to her body and give in to the transformation. Not only is their shared passion at risk of
 falling apart, but so is their friendship.
 
-&nbsp;
+{{< spacer >}}
 -->
-{{< row class="specific-ratio">}}
+{{< row class="specific-ratio" stack="true" >}}
 
 {{< text >}}
 <!--

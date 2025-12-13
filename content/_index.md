@@ -2,8 +2,8 @@
 title: "Editing"
 layout: blank
 ---
-&nbsp;
+{{< spacer size="sm" >}}
 
 {{< post_list_preview >}}
 
-&nbsp;
+{{< spacer >}}

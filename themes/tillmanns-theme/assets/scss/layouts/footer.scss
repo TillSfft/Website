@@ -16,12 +16,24 @@ footer {
     }
 }
 
-@media screen and (max-width: 1000px) {
+// --- NEW MOBILE MEDIA QUERY (e.g., below 700px) ---
+@media screen and (max-width: 1050px) {
     footer {
+        // Remove left/right margin on the footer to let it fill the screen edge-to-edge
+        // if your <body> or main container adds side margins.
+        margin-left: 0;
+        margin-right: 0;
         margin-bottom: 0px;
-
+        
         .footer-container {
+            // Reduce padding for smaller screens (e.g., from 30px to 20px top/bottom and 15px left/right)
+            padding: 20px 15px; 
             border-radius: 15px;
+            
+            // To ensure it uses the full width on smaller screens:
+            max-width: 100%; 
+            
+            font-size: 0.8rem;
         }
     }
-  }
+}

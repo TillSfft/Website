@@ -1,13 +1,33 @@
 <div class="post-grid">
-  {{/* Get only pages in the same section where the shortcode is used */}}
   {{ $section := .Page.Section }}
-  
-  {{ range (where .Site.RegularPages "Section" .Page.Section) }}
-    {{ $poster := .Resources.GetMatch "media/poster*" }}
-    {{ if $poster }}
-      <a class="post-card" href="{{ .RelPermalink }}">
-        <img src="{{ $poster.RelPermalink }}" alt="{{ .Title }} poster" loading="lazy">
+
+  {{ range (where .Site.RegularPages "Section" $section) }}
+    {{ $page := . }}
+    {{ $poster := $page.Resources.GetMatch "media/poster*" }}
+
+    {{ with $poster }}
+      <a class="post-card" href="{{ $page.RelPermalink }}">
+
+        {{ if eq .MediaType.SubType "svg" }}
+          <img
+            src="{{ .RelPermalink }}"
+            alt="{{ $page.Title }} poster"
+            loading="lazy"
+            class="media"
+          >
+        {{ else }}
+          {{ with .Resize (printf "%dx%d webp 60" .Width .Height) }}
+            <img
+              src="{{ .RelPermalink }}"
+              alt="{{ $page.Title }} poster"
+              loading="lazy"
+              class="media"
+            >
+          {{ end }}
+        {{ end }}
+
       </a>
     {{ end }}
+
   {{ end }}
 </div>

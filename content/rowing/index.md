@@ -4,6 +4,8 @@ date: '2025-11-20'
 layout: project
 programs_used: avid
 bgcolor: "bg-ROW"
+build:
+    publishResources: false
 ---
 
 #### Short film from my second year at Filmacademy
@@ -22,7 +24,7 @@ bgcolor: "bg-ROW"
 {{< logo name="Laurel_Wreath" >}}
 -->
 
-&nbsp;
+{{< spacer >}}
 
 {{< row >}}
 {{< text >}}
@@ -33,7 +35,7 @@ bgcolor: "bg-ROW"
 
 {{< media src="media/Timeline_Row.png" scale=75 >}}
 
-&nbsp;
+{{< spacer >}}
 
 Nele‘s passion is rowing. With her best friend Dina, she trains every day without exception.
 Dina however, is currently battling her own body. Her skin is becoming scaly and spikes are
@@ -41,9 +43,9 @@ growing out of her back. Although Nele tries to keep her in training, Dina decid
 to her body and give in to the transformation. Not only is their shared passion at risk of
 falling apart, but so is their friendship.
 
-&nbsp;
+{{< spacer >}}
 
-{{< row class="specific-ratio">}}
+{{< row class="specific-ratio" stack="true" >}}
 
 {{< text >}}
 <!--

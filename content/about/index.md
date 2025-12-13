@@ -6,7 +6,7 @@ layout: about
 
 {{< media src="media/Tillmann.jpg" scale=50 >}}
 
-&nbsp;
+{{< spacer >}}
 
 {{< buttons >}}
 <a href="https://www.crew-united.com/de/Tillmann-Seiffert_646360.html"  target="_blank" rel="noopener noreferrer">Crew United</a>
@@ -16,11 +16,11 @@ layout: about
 <a href="https://boxd.it/2gDQR"  target="_blank" rel="noopener noreferrer">Letterboxd</a>
 {{< /buttons >}}
 
-&nbsp;
+{{< spacer >}}
 
 #### Editing student &#x200b; &#x200b; &#x200b; &#x200b; | &#x200b; &#x200b; &#x200b; &#x200b; Filmakademie Baden-Württemberg
 
-{{< row >}}
+{{< row stack="true" >}}
 {{< text >}}
 #### What's there to know?
 
@@ -43,7 +43,7 @@ I have edited fiction, documentaries, advertisements, social content, and animat
 
 {{< media src="media/Editing.png" scale=25 >}}
 
-{{< row >}}
+{{< row stack="true" >}}
 {{< text >}}
 ###### I also have experience with
 - DCP Mastering
@@ -55,16 +55,14 @@ I have edited fiction, documentaries, advertisements, social content, and animat
 
 {{< media src="media/OnSetEdit.jpg" scale=75 >}}
 {{< /row >}}
-&nbsp;
 
-&nbsp;
+{{< spacer >}}
 
----
-&nbsp;
+{{< spacer >}}
 
 #### About this website
 
-Credits of the pictures of me go to:
+Credits for the pictures of me go to:
 [Tizian Schmidt](https://www.instagram.com/tizianderfalsche),
 [Anina Keuchel](https://www.instagram.com/aninaminafrieda/#),
 [Jan Volz](https://www.instagram.com/_medijan/#),

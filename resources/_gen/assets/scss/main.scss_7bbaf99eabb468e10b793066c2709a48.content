@@ -48,7 +48,7 @@ body {
   margin-top: 130px; }
 
 .content-container {
-  padding: 0 25px;
+  padding: 0 10px;
   max-width: 1000px;
   min-width: 0px;
   display: block;
@@ -84,11 +84,16 @@ footer {
     background-color: #1e1e1e;
     border-radius: 10px; }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   footer {
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 0px; }
     footer .footer-container {
-      border-radius: 15px; } }
+      padding: 20px 15px;
+      border-radius: 15px;
+      max-width: 100%;
+      font-size: 0.8rem; } }
 
 .bg-600Warm {
   background-color: #3a1c1c; }
@@ -159,6 +164,14 @@ header {
   header .header-container .sub-level {
     display: none; } }
 
+@media screen and (max-width: 480px) {
+  header .header-container {
+    margin: 0px 5px 0px 5px; }
+    header .header-container .top-level a {
+      font-size: 1rem;
+      margin: 10px 5px;
+      padding: 5px 5px; } }
+
 /* https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/ */
 .link-buttons {
   display: flex;
@@ -180,6 +193,11 @@ header {
 .link-buttons a:hover {
   background: #565656; }
 
+@media screen and (max-width: 600px) {
+  .link-buttons a {
+    font-size: 1.2rem;
+    padding: 10px 10px; } }
+
 .own-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -189,9 +207,17 @@ header {
   margin: 0 auto;
   /* center on page */ }
 
+@media screen and (max-width: 800px) {
+  .own-gallery {
+    grid-template-columns: 1fr;
+    gap: 10px; } }
+
 .own-gallery .image {
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .own-gallery .image img,
 .own-gallery .image video {
@@ -199,6 +225,15 @@ header {
   height: 100%;
   object-fit: contain;
   object-position: center; }
+
+/* Mobile fix only */
+@media screen and (max-width: 800px) {
+  .own-gallery .image img,
+  .own-gallery .image video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto; } }
 
 .own-gallery .image-bottom-text {
   grid-column: 1 / -1;
@@ -226,7 +261,8 @@ header {
     border-radius: 10px; }
   .row-container .row-content {
     grid-template-columns: 50% 50%;
-    padding: 10px 0px 10px 0px; }
+    padding: 0px 0px 10px 0px;
+    display: grid; }
     .row-container .row-content .text {
       padding: 20px 0px; }
       .row-container .row-content .text h1, .row-container .row-content .text h2, .row-container .row-content .text h3, .row-container .row-content .text h4, .row-container .row-content .text p {
@@ -234,6 +270,9 @@ header {
     .row-container .row-content .image {
       margin-top: 70px;
       margin-bottom: 30px; }
+  @media screen and (max-width: 800px) {
+    .row-container.row-stack-mobile .row-content {
+      grid-template-columns: 1fr; } }
   .row-container .specific-ratio {
     grid-template-columns: 40% 60%; }
   .row-container .specific-ratio2 {
@@ -254,7 +293,7 @@ html li {
   font-size: 1.2rem; }
 
 html h1 {
-  font-size: 7rem;
+  font-size: 6rem;
   margin: 0px;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
@@ -290,29 +329,19 @@ html h6 {
 html a {
   color: #e6e6e6; }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1050px) {
   html h1 {
-    font-size: 5rem; }
+    font-size: 4rem; }
   html h2 {
-    font-size: 2rem; }
+    font-size: 1.6rem; }
   html h3 {
+    font-size: 1.4rem; }
+  html h4 {
     font-size: 1.5rem; } }
 
 @media screen and (max-width: 600px) {
   html h1 {
-    font-size: 3.5rem; } }
-
-@media screen and (max-width: 1500px) {
-  html h1 {
-    font-size: 5rem; }
-  html h2 {
-    font-size: 2rem; }
-  html h3 {
-    font-size: 1.5rem; } }
-
-@media screen and (max-width: 600px) {
-  html h1 {
-    font-size: 3.5rem; } }
+    font-size: 2.8rem; } }
 
 .text.left {
   text-align: left; }
@@ -357,14 +386,14 @@ pre {
 .image.scale_75 img, .image.scale_75 video {
   width: 75%; }
 
-.image.scale_25 img, .image.scale_25 video {
-  width: 25%; }
-
-.image.scale_50 img, .image.scale_50 video {
-  width: 50%; }
-
-.image.scale_75 img, .image.scale_75 video {
-  width: 75%; }
+@media screen and (max-width: 600px) {
+  .image.scale_25 img,
+  .image.scale_50 img,
+  .image.scale_75 img,
+  .image.scale_25 video,
+  .image.scale_50 video,
+  .image.scale_75 video {
+    width: 100%; } }
 
 video, img {
   border-radius: 10px;
@@ -378,11 +407,14 @@ video, img {
   margin-bottom: 2rem; }
 
 .twocol-col {
-  flex: 1; }
+  flex: 1;
+  font-size: 1rem; }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+  .twocol-col p {
+    font-size: 0.8rem; }
   .twocol-container {
-    flex-direction: column; } }
+    gap: 1rem; } }
 
 .twocol-container .twocol-col:first-child {
   text-align: right; }
@@ -394,8 +426,18 @@ video, img {
   margin: 10px;
   margin-top: 10px; }
 
+@media screen and (max-width: 700px) {
+  height: 50px; }
+
+.custom-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; }
+
 .custom-table-wrapper table {
   width: 100%;
+  min-width: 600px;
+  /* important */
   border-collapse: collapse;
   border-spacing: 0;
   border-radius: 15px;
@@ -406,6 +448,12 @@ video, img {
 .custom-table-wrapper td {
   border: 0px solid #ccc;
   padding: 10px; }
+
+@media (max-width: 800px) {
+  .custom-table-wrapper th,
+  .custom-table-wrapper td {
+    padding: 6px;
+    font-size: 0.85rem; } }
 
 .custom-table-wrapper th {
   background: #404040; }
@@ -431,3 +479,22 @@ video, img {
 @media screen and (min-width: 800px) {
   .post-grid {
     grid-template-columns: 1fr 1fr; } }
+
+.spacer {
+  height: 30px;
+  width: 100%; }
+
+@media screen and (min-width: 700px) {
+  .spacer {
+    height: 50px; } }
+
+/* --- SMALL SPACER (.spacer-sm) --- */
+.spacer-sm {
+  height: 10px; }
+
+@media screen and (min-width: 700px) {
+  .spacer-sm {
+    height: 30px; } }
+
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.2); }

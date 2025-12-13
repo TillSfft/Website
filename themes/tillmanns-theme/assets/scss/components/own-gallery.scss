@@ -7,9 +7,19 @@
   margin: 0 auto; /* center on page */
 }
 
+@media screen and (max-width: 800px) {
+  .own-gallery {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
 .own-gallery .image {
   width: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .own-gallery .image img,
@@ -18,6 +28,17 @@
   height: 100%;
   object-fit: contain;
   object-position: center;
+}
+
+/* Mobile fix only */
+@media screen and (max-width: 800px) {
+  .own-gallery .image img,
+  .own-gallery .image video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .own-gallery .image-bottom-text {

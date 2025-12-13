@@ -1,0 +1,23 @@
+.spacer {
+    // Default (mobile) size
+    height: 30px; 
+    width: 100%; // Takes up full width but only 10px tall
+}
+
+// Larger size for desktop/larger screens
+@media screen and (min-width: 700px) {
+    .spacer {
+        height: 50px; // Larger size on desktop
+    }
+}
+
+/* --- SMALL SPACER (.spacer-sm) --- */
+.spacer-sm {
+    height: 10px; // Small Spacer Mobile size (shorter than base 10px)
+}
+
+@media screen and (min-width: 700px) {
+    .spacer-sm {
+        height: 30px; // Small Spacer Desktop size (shorter than base 30px)
+    }
+}
