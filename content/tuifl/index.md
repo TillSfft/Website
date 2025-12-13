@@ -70,9 +70,9 @@ Festival
 
 **Sound Design**
 
-&nbsp;  
-
 **Sound Mixing**
+
+&nbsp;  
 
 **Coloring**
 
@@ -104,7 +104,7 @@ Lukas Huber
 
 Jonathan Dönges 
 
-Luks Huber 
+Lukas Huber 
 
 Lennart Bachnick
 

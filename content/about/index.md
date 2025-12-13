@@ -53,7 +53,7 @@ I have edited fiction, documentaries, advertisements, social content, and animat
 - On Set Editing
 {{< /text >}}
 
-{{< media src="media/OnSetEdit.jpg" scale=75 >}}
+{{< media src="media/DSCF0445.jpg" scale=75 >}}
 {{< /row >}}
 
 {{< spacer >}}
