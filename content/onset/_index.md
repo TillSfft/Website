@@ -35,6 +35,8 @@ build:
 |      | Der Statist | Short film | 1st AC |
 |      | Shut Up And Suffer | Short film | 1st AC |
 | 2025 | Letterboxd | Spec Spot | 1st AC |
+| 2026 | Ein deutscher Film | Short film | 2nd AC |
+|      | Holy Ship | Short film | 1st AC |
 
 {{< /table >}}
 

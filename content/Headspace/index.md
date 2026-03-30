@@ -44,13 +44,15 @@ Victoria’s everyday stress is visualized through a striking metaphor: a ceilin
 {{< row class="specific-ratio" stack="true" >}}
 
 {{< text >}}
-<!--
-Festival 
 
-Festival 
+### Festivals
 
-Festival
--->
+{{< spacer >}}
+
+- Spotlight - Festival für Bewegtbildkommunikation 
+    - Winner Jury Award Silver
+    - Winner Audience Award Gold
+
 {{< /text >}}
 
 {{< twocol >}}

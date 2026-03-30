@@ -13,6 +13,9 @@
 .bg-HS {
   background-color: #424242; }
 
+.bg-Kir {
+  background-color: #3b212f; }
+
 .bg-600Warm {
   background-color: #3a1c1c; }
 
@@ -27,6 +30,9 @@
 
 .bg-HS {
   background-color: #424242; }
+
+.bg-Kir {
+  background-color: #3b212f; }
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
@@ -71,6 +77,9 @@ body {
 .bg-HS {
   background-color: #424242; }
 
+.bg-Kir {
+  background-color: #3b212f; }
+
 footer {
   display: flex;
   justify-content: center;
@@ -109,6 +118,9 @@ footer {
 
 .bg-HS {
   background-color: #424242; }
+
+.bg-Kir {
+  background-color: #3b212f; }
 
 header {
   position: fixed;

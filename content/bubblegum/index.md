@@ -62,6 +62,9 @@ Nate is trying to relax, his date with Kayla is coming up. But when his original
 {{< /text >}}
 
 {{< twocol >}}
+
+&nbsp;  
+
 **Director**
 
 **Screenplay**
@@ -89,6 +92,8 @@ Nate is trying to relax, his date with Kayla is coming up. But when his original
 **Kayla**
 
 ---
+
+&nbsp;  
 
 Madlen Medvedovskyy
 

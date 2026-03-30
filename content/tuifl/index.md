@@ -44,13 +44,17 @@ Jakob and his mother live alone in a hut, in the middle of the South Tyrolean mo
 {{< row class="specific-ratio" stack="true" >}}
 
 {{< text >}}
-<!--
-Festival 
 
-Festival 
+### Festivals
 
-Festival
--->
+{{< spacer >}}
+
+- Landshuter Kurzfilm Festival
+
+- Shorts Film Festival Offenburg
+
+- Film Festival Bozen
+
 {{< /text >}}
 
 {{< twocol >}}
