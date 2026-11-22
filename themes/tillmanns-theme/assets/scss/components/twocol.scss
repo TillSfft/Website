@@ -2,17 +2,31 @@
   display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
+  align-items: flex-start;
 }
 
 .twocol-col {
   flex: 1;
   font-size: 1rem;
+
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  .spacer-heading {
+    display: block;
+    height: 2em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media (max-width: 800px) {
   .twocol-col p {
     font-size: 0.8rem;
   }
+
   .twocol-container {
     gap: 1rem;
   }

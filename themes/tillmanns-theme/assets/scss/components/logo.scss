@@ -1,7 +1,16 @@
 .inline-logo {
+  max-height: 70px;
+  max-width: 85px;
   width: auto;
+  height: auto;
   display: inline-block;
   vertical-align: middle;
-  margin:  10px;
-  margin-top: 10px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .inline-logo {
+    height: 60px !important; // Overrides the inline height (e.g., 190px) on mobile
+    margin: 6px;            // Tighter spacing so more logos fit side by side
+  }
 }

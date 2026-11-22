@@ -21,3 +21,10 @@
         height: 30px; // Small Spacer Desktop size (shorter than base 30px)
     }
 }
+
+.spacer-heading {
+  display: block;
+  width: 100%;
+  height: 2em;
+  flex-shrink: 0;
+}

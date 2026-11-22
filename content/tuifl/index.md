@@ -18,8 +18,17 @@ build:
     {{< media src="media/Tuifl_Still_03.png" >}}
 {{< /own_gallery >}}
 
+{{< logo name="LSFF_Laurel_2026" ext="png" height="190" >}}
+{{< logo name="FN_Laurel_2026" ext="png" height="100" >}}
+{{< logo name="SFFO_Laurel_2026" ext="png" height="100" >}}
+{{< logo name="FFF_Laurel_2026" ext="png" height="120" >}}
+{{< logo name="SS_Laurel_2026" ext="png" height="110" >}}
+{{< logo name="TISFF_Laurel_2026" ext="png" height="170" >}}
+{{< logo name="FoAB_Laurel_2026" ext="png" height="90" >}}
+{{< logo name="FILMZ_Laurel_2026" ext="png" height="90" >}}
+{{< logo name="BFFB_Laurel_2026" ext="png" height="120" >}}
+
 <!--
-{{< logo name="Laurel_Wreath" >}}
 {{< logo name="Laurel_Wreath" >}}
 -->
 
@@ -76,9 +85,7 @@ Jakob and his mother live alone in a hut, in the middle of the South Tyrolean mo
 
 {{< twocol >}}
 
-### Crew
-
-{{< spacer >}}
+&nbsp;
 
 **Director**
 
@@ -111,6 +118,8 @@ Jakob and his mother live alone in a hut, in the middle of the South Tyrolean mo
 **Mami**
 
 ---
+
+&nbsp;
 
 Adina Barth
 

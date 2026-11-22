@@ -25,3 +25,6 @@ theme = ['tillmanns-theme']
   [module.hugoVersion]
     extended = false
     min = '0.146.0'
+
+[markup.goldmark.renderer]
+unsafe = true

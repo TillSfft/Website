@@ -50,6 +50,12 @@ Yuna and her best friend are inseparable. But when she suddenly moves away, Yuna
 
 - 26. Landshuter Kurzfilm Festival
 
+- Alpinale Short Film Festival
+
+- MFF Juniorfest Tschechien
+
+- Kurz Film Spiele Konstanz
+
 {{< /text >}}
 
 {{< twocol >}}

@@ -48,6 +48,14 @@ falling apart, but so is their friendship.
 {{< row class="specific-ratio" stack="true" >}}
 
 {{< text >}}
+
+### Festivals
+
+{{< spacer >}}
+
+- Internationale Hofer Filmtage
+
+- Filmschau Baden-Württemberg
 <!--
 Festival 
 

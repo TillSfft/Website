@@ -52,6 +52,21 @@ Victoria’s everyday stress is visualized through a striking metaphor: a ceilin
 - Spotlight - Festival für Bewegtbildkommunikation 
     - Winner Jury Award Silver
     - Winner Audience Award Gold
+    
+- Ciclope Festival
+    - Bronze Winner
+
+- Berlin Commercial
+    - Gold Winner - Best Spec
+
+- 1.4 Awards
+    - Winner Silver
+
+- The Telly Awards
+    - Gold Winner
+
+- Golden Award of Montreux
+    - Winner
 
 {{< /text >}}
 
