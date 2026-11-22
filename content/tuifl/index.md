@@ -53,11 +53,33 @@ Jakob and his mother live alone in a hut, in the middle of the South Tyrolean mo
 
 - Shorts Film Festival Offenburg
 
-- Film Festival Bozen
+- Bolzano Film Festival Bozen
+
+- SehSüchte
+
+- Tel Aviv TISFF
+
+- Festival of Animation Berlin
+
+- Fantasy Film Fest
+
+- FILMZ
+
+- Fright Nights Pasching
+    - Winner Best Shortfilm
+
+- Festival der Illustratioin Oldenburg
+
+- Nikozi Animation Festival 
 
 {{< /text >}}
 
 {{< twocol >}}
+
+### Crew
+
+{{< spacer >}}
+
 **Director**
 
 **Screenplay**
