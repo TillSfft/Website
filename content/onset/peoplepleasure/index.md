@@ -41,8 +41,6 @@ A TV crew, who originally wanted to shoot a documentary about the lack of living
 
 ### Festivals
 
-{{< spacer >}}
-
 - Internationale Hofer Filmtage
 
 - Jung & Abgedreht | Hanau
@@ -56,6 +54,9 @@ A TV crew, who originally wanted to shoot a documentary about the lack of living
 {{< /text >}}
 
 {{< twocol >}}
+
+### Crew
+
 **Director**
 
 **Screenplay**
@@ -89,6 +90,8 @@ A TV crew, who originally wanted to shoot a documentary about the lack of living
 **Theo**
 
 ---
+
+### &nbsp;
 
 Oskar Stolovits
 

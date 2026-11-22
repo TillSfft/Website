@@ -423,7 +423,7 @@ video, img {
   flex: 1;
   font-size: 1rem; }
   .twocol-col > *:first-child {
-    margin-top: 0; }
+    margin-top: 1.8rem; }
   .twocol-col .spacer-heading {
     display: block;
     height: 2em;

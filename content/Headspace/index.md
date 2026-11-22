@@ -47,12 +47,10 @@ Victoria’s everyday stress is visualized through a striking metaphor: a ceilin
 
 ### Festivals
 
-{{< spacer >}}
-
 - Spotlight - Festival für Bewegtbildkommunikation 
     - Winner Jury Award Silver
     - Winner Audience Award Gold
-    
+
 - Ciclope Festival
     - Bronze Winner
 
@@ -71,6 +69,9 @@ Victoria’s everyday stress is visualized through a striking metaphor: a ceilin
 {{< /text >}}
 
 {{< twocol >}}
+
+### Crew
+
 **Director**
 
 **Producer**
@@ -100,6 +101,8 @@ Victoria’s everyday stress is visualized through a striking metaphor: a ceilin
 **Cast**
 
 ---
+
+### &nbsp;
 
 Wolf Lass
 

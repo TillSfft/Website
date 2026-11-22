@@ -56,8 +56,6 @@ Jakob and his mother live alone in a hut, in the middle of the South Tyrolean mo
 
 ### Festivals
 
-{{< spacer >}}
-
 - Landshuter Kurzfilm Festival
 
 - Shorts Film Festival Offenburg
@@ -85,7 +83,7 @@ Jakob and his mother live alone in a hut, in the middle of the South Tyrolean mo
 
 {{< twocol >}}
 
-&nbsp;
+### Crew
 
 **Director**
 
@@ -119,7 +117,7 @@ Jakob and his mother live alone in a hut, in the middle of the South Tyrolean mo
 
 ---
 
-&nbsp;
+### &nbsp;
 
 Adina Barth
 

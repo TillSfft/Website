@@ -51,8 +51,6 @@ falling apart, but so is their friendship.
 
 ### Festivals
 
-{{< spacer >}}
-
 - Internationale Hofer Filmtage
 
 - Filmschau Baden-Württemberg
@@ -66,6 +64,9 @@ Festival
 {{< /text >}}
 
 {{< twocol >}}
+
+### Crew
+
 **Director**
 
 **Screenplay**
@@ -113,6 +114,8 @@ Festival
 **Isabel**
 
 ---
+
+### &nbsp;
 
 Tobias Zürrer
 

@@ -46,8 +46,6 @@ Yuna and her best friend are inseparable. But when she suddenly moves away, Yuna
 {{< text >}}
 ### Festivals
 
-{{< spacer >}}
-
 - 26. Landshuter Kurzfilm Festival
 
 - Alpinale Short Film Festival
@@ -60,7 +58,7 @@ Yuna and her best friend are inseparable. But when she suddenly moves away, Yuna
 
 {{< twocol >}}
 
-&nbsp;  
+### Crew 
 
 **Director & Screenplay**
 
@@ -104,7 +102,7 @@ Yuna and her best friend are inseparable. But when she suddenly moves away, Yuna
 
 ---
 
-&nbsp;  
+### &nbsp;  
 
 Ayleen Tunçer
 

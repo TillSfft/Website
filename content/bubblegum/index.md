@@ -47,8 +47,6 @@ Nate is trying to relax, his date with Kayla is coming up. But when his original
 
 ### Festivals
 
-{{< spacer >}}
-
 - Exground Wiesbaden
 
 - Kurzfilmwanderung Bonn
@@ -65,7 +63,7 @@ Nate is trying to relax, his date with Kayla is coming up. But when his original
 
 {{< twocol >}}
 
-&nbsp;  
+### Crew  
 
 **Director**
 
@@ -95,7 +93,7 @@ Nate is trying to relax, his date with Kayla is coming up. But when his original
 
 ---
 
-&nbsp;  
+### &nbsp; 
 
 Madlen Medvedovskyy
 
